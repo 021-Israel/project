@@ -80,3 +80,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+
+function reloadCaptcha() {
+    // Aqui você deve implementar a lógica para atualizar o captcha
+    // Por exemplo, usando JavaScript para gerar um novo captcha ou
+    // Fazendo uma requisição para um servidor para obter um novo captcha
+    // e atualizando a imagem do captcha.
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="image/logotipo/multimarcas.jpg">
+    <title>Royal Multimarcas | Termos de privacidade</title>
+</head>
+<body>
+    <header>
+        <div class="fixed-top">
+            <img src="image/logotipo/multimarcas.jpg" alt="Logo do site">
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+        <nav class="links">
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank" > <i class="fa-brands fa-instagram"></i></a>
+                </li>
+                
+                
+                <li>
+                    <a href="https://facebook.com" target="_blank"> <i class="fa-brands fa-facebook-f"></i> </a>
+                </li>
+            
+           
+                <li>
+                    <a href="https://www.tiktok.com/upload?lang=pt-BR" target="_blank"> <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </li>
+            </ul>
+        </nav>
+       </header>
+    <main>
+        <section class="sugestao">
+            <div class="sugestao__titulo"><h1>Fale Conosco</h1></div>
+            <div class="sugestao__parag"><p>Para enviar sua solicitação, dúvida, sugestão ou elogios, por favor, preencha os campos abaixo:</p></div>
+            <form action=""></form>
+        </section>
+        <section class="formas">
+            <form action="/submit" method="post">
+                <label for="primeiroNome">Nome</label>
+                <input type="text" id="primeiroNome" name="primeiroNome" required>
+                
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" id="sobrenome" name="sobrenome"> <br> <br>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required> <br> <br>
+
+                <label for="celular">Celular:</label>
+                <input type="tel" name="ddd" id="ddd" placeholder="(DDD)" required>
+                <input type="tel" name="telefone" id="telefone" placeholder="Número do Telefone"> <br> <br>
+
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto" required>
+                    <option value="" disable selected> Selecione o Assunto</option>
+                    <option value="pedido">Pedido</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="reclamacao">Reclamação</option>
+                </select> <br> <br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" required></textarea> <br> <br>
+
+                    <div class="enviar">
+                        <input type="submit" value="Enviar">
+                    </div>
+            </form>
+        </section>
+    </main>
+    <footer class="rodape"> 
+        <div class="pesquisa">
+            <h3>FIQUE POR DENTRO</h3>
+            <p>Cadastre-se e seja o primeiro a saber sobre nossos produtos, ofertas, comodidades e muito mais.  
+            Respeitamos sua privacidade e nunca compartilharemos suas informações com fornecedores externos.</p>
+        </div><br>
+    
+        <div class="cadastro">
+            <form name="projeto" method="post" action="termo.html" id="cadastroForm">
+                <label for="correio"></label>
+                <input type="email" placeholder="Digite seu E-mail" name="correio" id="correio" class="form-control" required>
+                <input type="submit" class="btn btn-outline-success" value="Cadastre-se">   
+            </form>
+        </div><br><br>
+    
+        <hr>
+        <p class="dados">&copy; Dados adicionais</p>
+    
+        <div class="termo">
+            <h3>Suporte</h3>
+            <a href="termo.html">Política de Privacidade</a>
+    
+            <h3>Contato</h3>
+            <address>
+                <p><strong>Email:</strong> <a href="mailto:royal-multimarcas@gmail.com">royal-multimarcas@gmail.com</a></p>
+                <p><strong>Telefone:</strong> <a href="tel:+5521999990000">(21) 99999-0000</a></p>
+            </address>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/jwc.js"></script>
+
+</body>
+
+</html>
